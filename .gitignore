@@ -1,0 +1,49 @@
+# Compiled binaries
+/bin/
+*.exe
+*.out
+*.app
+
+# Build artifacts
+/build/
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+
+# IDE and editor settings
+/.vscode/
+/.idea/
+/*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+*.bak
+*.tmp
+
+# Debugging files
+*.log
+*.dmp
+*.pch
+*.ilk
+*.pdb
+
+# Makefile auto-generated files
+Makefile.in
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+
+# Coverage and debugging
+*.gcda
+*.gcno
+*.profraw
+
+# Generated documentation
+/docs/*.html
+/docs/*.pdf
